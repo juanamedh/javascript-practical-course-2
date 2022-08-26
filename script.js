@@ -4,4 +4,12 @@ const paragraph = document.querySelector('.paragraph');
 const pid = document.querySelector('#pid');
 const input = document.querySelector('input');
 
-console.log(input.value)
+console.log(input.value);
+
+console.log({
+    h1,
+    p,
+    paragraph,
+    pid,
+    input,
+});
