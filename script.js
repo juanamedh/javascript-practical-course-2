@@ -13,3 +13,6 @@ console.log({
     pid,
     input,
 });
+
+h1.innerText = 'What does a pampered cow give? \n \
+Spoiled milk';
