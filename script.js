@@ -1,18 +1,3 @@
 const h1 = document.querySelector('h1');
-const p = document.querySelector('p');
-const paragraph = document.querySelector('.paragraph');
-const pid = document.querySelector('#pid');
-const input = document.querySelector('input');
-
-console.log(input.value);
-
-console.log({
-    h1,
-    p,
-    paragraph,
-    pid,
-    input,
-});
-
-h1.innerText = 'What does a pampered cow give? \n \
-Spoiled milk';
+const arg1 = document.querySelector('#arg1')
+const arg2 = document.querySelector('#arg2')
