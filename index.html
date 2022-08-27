@@ -11,8 +11,10 @@
 
 
     <input id="arg1" placeholder="Type something here" >
-    <input id="arg2" placeholder="Type something here" >
-    <button id="calcBttn"></button>
+    <input onchange="console.log('The input has changed.')" id="arg2" placeholder="Type something here" >
+    <button id="calcBttn" onclick="bttnOnclick()"></button>
+
+    <p id="total"></p>
     
     <script src="./script.js"></script>
 </body>
