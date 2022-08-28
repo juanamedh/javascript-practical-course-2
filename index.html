@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Basic DOM Manipulation</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Inter:wght@300;500&display=swap" rel="stylesheet">
 </head>
 <body>
     <h1>Basic DOM Manipulation</h1>
 
-<form id="form">
-    <input id="arg1" placeholder="Type something here" >
-    <input onchange="console.log('The input has changed.')" id="arg2" placeholder="Type something here" >
-    <button id="calcBttn">Total</button>
+    <form id="form">
+        <input id="arg1" placeholder="Type something here" >
+        <span id=plus>+</span>
+        <input onchange="console.log('The input has changed.')" id="arg2" placeholder="Type something here" >
+        <button id="calcBttn">Total</button>
 
-    <p id="total"></p>
-</form>
+        <p id="total"></p>
+    </form>
 
     
     <script src="./script.js"></script>

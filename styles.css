@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    margin: 1rem auto 4rem;
+}
+
+form {
+    margin: 0 auto;
+}
+
+#plus {
+    font-size: 2rem;
+}
